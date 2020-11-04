@@ -1,0 +1,3 @@
+#Check machine's IP address
+
+docker-machine ip Char

@@ -1,0 +1,3 @@
+#Pull hello-world container
+
+docker pull hello-world

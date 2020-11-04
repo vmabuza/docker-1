@@ -1,0 +1,10 @@
+#Pull NGINX container
+#docker pull nginx
+
+#Run nginx container as overlord
+docker run -d -p 5000:80 --name overlord --restart=always nginx
+
+#-d for the background
+#-p for the port
+#--name for name
+#--restart to enable self restarting

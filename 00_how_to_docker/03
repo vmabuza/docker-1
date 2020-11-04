@@ -1,0 +1,5 @@
+#1st check machine's environments with
+#docker-machine env Char
+
+#Then set environments with
+eval $(docker-machine env Char)
