@@ -1,0 +1,8 @@
+#docker pull wordpress
+
+#Link wordpress to database
+
+docker run -d -p 8080:80 --name lair --link spawning-pool wordpress
+
+#check container IP
+#~docker inspect -f "{{ .NetworkSettings.IPAddress }}" lair

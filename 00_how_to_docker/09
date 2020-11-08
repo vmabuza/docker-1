@@ -1,0 +1,12 @@
+#1st pull the debian container
+#docker pull debian
+
+2nd open the debian shell
+#docker run -it debian (go to debian shell)
+
+#lastly run this commands in debian shell to install git:
+apt-get update
+apt-get upgrade
+apt-get install git
+
+#exit

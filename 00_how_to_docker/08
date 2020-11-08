@@ -1,0 +1,3 @@
+#Launch a shell from analpinecontainer
+
+docker run --rm -it alpine /bin/sh
