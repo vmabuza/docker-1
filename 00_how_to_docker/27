@@ -1,0 +1,7 @@
+#Get the real-time logs of one the tasks of the engineering-bay service.
+
+#We have 2 tasks from ex26.
+#This command shows both tasks: "docker service logs -f engineering-bay",
+#but we need to check a log  of just one of them
+
+docker service logs engineering-bay

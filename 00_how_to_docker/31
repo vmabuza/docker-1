@@ -1,0 +1,7 @@
+#Force quit and delete all the services on the local swarm, in one command.
+
+#docker service ls - see all services or specify all the services
+
+docker service rm $(docker service ls -q)
+
+
